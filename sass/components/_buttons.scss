@@ -1,4 +1,5 @@
 // Bouton Principal
+@use "./utils/variables" as *;
 .btn{
     padding: $spacing-xl $spacing-lg;
     border:none;
