@@ -1,0 +1,41 @@
+// RESET CSS - HOMYFOOD //
+// Normalisation des styles par défaut du navigateur
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px; // 1rem = 16px
+}
+
+body {
+  font-family: $font-primary;
+  font-size: $font-size-base;
+  color: $color-grey-3;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+ul, ol {
+  @include reset-list;
+}

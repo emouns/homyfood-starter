@@ -1,0 +1,21 @@
+// TYPOGRAPHIE - HOMYFOOD //
+
+h1 {
+  font-family: $font-logo;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-regular;
+}
+
+h2 {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
+}
+
+h3 {
+  font-size: $font-size-md;
+  font-weight: $font-weight-medium;
+}
+
+.logo {
+  font-family: $font-logo;
+}

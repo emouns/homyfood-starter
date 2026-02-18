@@ -1,0 +1,28 @@
+// FICHIER PRINCIPAL - HOMYFOOD //
+// Architecture 7-1
+
+// 1. Utils 
+@import 'utils/variables';
+@import 'utils/mixins';
+
+// 2. Base 
+@import 'base/reset';
+@import 'base/typography';
+
+// 3. Layouts 
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'layouts/container';
+@import 'layouts/location';
+
+// 4. Components
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/heart';
+ @import 'components/loader';
+
+// 5. Pages 
+@import 'pages/home';
+@import 'pages/menu';
+
+
