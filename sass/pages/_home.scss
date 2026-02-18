@@ -45,8 +45,9 @@ body{
     &__grid {
         display: grid;
         gap: $spacing-sm;
-        padding: 0 $spacing-md;
-        margin: 0 auto;
+        width: 100%;
+        margin-left: $spacing-sm;
+        
 
 .restaurant-card__heart {
     position: absolute;

@@ -574,8 +574,8 @@ body {
 .restaurants__grid {
   display: grid;
   gap: 1rem;
-  padding: 0 1.5rem;
-  margin: 0 auto;
+  width: 100%;
+  margin-left: 1rem;
 }
 .restaurants__grid .restaurant-card__heart {
   position: absolute;
