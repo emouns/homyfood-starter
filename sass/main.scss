@@ -2,8 +2,8 @@
 // Architecture 7-1
 
 // 1. Utils 
-@import "./utils/variables" as *;
-@import "./utils/mixins" as *;
+@import "./utils/variables" ;
+@import "./utils/mixins" ;
 
 // 2. Base 
 @import 'base/reset';
