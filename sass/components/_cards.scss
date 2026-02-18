@@ -1,0 +1,153 @@
+// Bouton Principal
+.restaurant-card{
+    position: relative;
+    background-color: $color-white;
+    border-radius:$radius-md;
+    
+    
+    width:90%;
+    overflow: hidden;
+    @include card-shadow;
+    @include transition (transform);
+
+    
+
+    &__badge{
+        position:absolute;
+        top: $spacing-md;
+        right:$spacing-md;
+        padding:$spacing-xs $spacing-sm;
+        background-color:$color-tertiary;
+        color:darken($color-tertiary, 40%);
+        font-size: $font-size-sm;
+        font-weight:$font-weight-medium;
+        border-radius:$radius-sm;
+    }
+
+    &__image{
+        width: 100%;
+        height: 205px;
+        object-fit:cover;
+
+        @include tablet{ 
+        height:220px;
+        }
+    }
+
+    &__content{
+        position: relative;
+        padding:$spacing-md;
+    }
+
+    &__title{
+       font-size:$font-size-md;
+       font-weight: $font-weight-bold;
+       margin-bottom: $spacing-xs;
+    }
+
+    &__location{
+        font-size: $font-size-base;
+        color:$color-grey-4;
+    }
+
+    &__heart{
+        position:absolute;
+        top:50%;
+        right:$spacing-md;
+        transform:translateY(-50%);
+    }
+}
+
+// dish-card
+.dish-card {
+    position: relative;
+    display:  flex;
+    background-color:$color-white;
+    border-radius: $radius-md;
+    overflow:hidden;
+    box-shadow:$shadow-light ;
+    cursor:pointer;
+    @include transition;
+
+ // apparition cascade  
+    opacity: 0;
+    animation: slideUp 0.5s ease-out forwards;
+
+ // effet  cascade 
+    @for $i from 1 through 12 {
+        &:nth-child(#{$i}) {
+            animation-delay: #{ $i * 0.1s }; 
+        }    
+    }
+
+    &:hover{
+        .dish-card__check{
+            transform:translateX(0);
+        }
+        .dish-card__check i{
+          animation: rotate 0.5s ease-out;
+        }
+    }
+
+    &__content{
+        flex:1;
+        padding: $spacing-md;
+        overflow:hidden;
+    }
+    &__title{
+        font-size: $font-size-base;
+        font-weight: $font-weight-medium;
+        margin-bottom: $spacing-xs;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+
+    &__description{
+        font-size: $font-size-sm;
+        color:$color-grey-4;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis
+    }
+
+    &__price{
+       display: flex;
+       align-items: flex-end; 
+       padding:$spacing-md;
+       font-size:$font-size-sm;
+       font-weight:$font-weight-bold;
+    }
+    &__check{
+        @include flex-center;
+        width:6%;
+        background-color:$color-tertiary;
+        transform: translateX(60px);
+        @include transition(transform);
+
+    i {
+       color:$color-white;
+       font-size:$font-size-lg
+      }   
+    }
+}
+    @keyframes slideUp{
+        from{
+            opacity:(0);
+            transform: translateY(20px);
+        } 
+        to {
+            opacity:1;
+            transform: translateY(0);
+        }
+    }
+    @keyframes rotate{
+        from{
+           transform:rotate(-360deg);  
+        }
+        to{
+          transform: rotate(0);  
+        }
+    }
+    
+       

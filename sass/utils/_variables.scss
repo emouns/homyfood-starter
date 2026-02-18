@@ -1,0 +1,56 @@
+//VARIABLES - HOMYFOOD //
+//========== COULEURS ==========//
+$color-primary: #9356DC; //violet//
+$color-secondary: #FF79DA; //rose//
+$color-tertiary: #99E2D0; //vert-menthe//
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+// Nuances de gris//
+$color-grey-1: #F6F6F6;// Très clair (backgrounds)//
+$color-grey-2: #EAEAEA;// clair (backgrounds)//
+$color-grey-3: #353535;// Foncé (texte principal)//
+$color-grey-4: #7E7E7E; // moyen (backgrounds)//
+  
+// ==GRADIENTS == //
+$gradient-primary: linear-gradient( to bottom,
+$color-secondary, $color-primary );
+//== TYPOGRAPHIE ==//
+$font-primary: 'Roboto',sans-serif;
+$font-logo: 'Shrikhand',cursive;
+// Tailles de police //
+$font-size-xs: 0.75rem; //12px// 
+$font-size-sm: 0.875rem; //14px //
+$font-size-base: 1rem; //16px//
+$font-size-md: 1.125rem; //18px// 
+$font-size-lg: 1.5rem; //24px//
+$font-size-xl: 2.5rem; //32px// 
+// Poids de police//
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700; 
+//==ESPACEMENTS==//
+$spacing-xs: 0.5rem; //8px //
+$spacing-sm: 1rem; //16px //
+$spacing-md: 1.5rem; //24px //
+$spacing-lg: 2rem; // 32px //
+$spacing-xl: 2.5rem; // 40px //
+$spacing-xxl: 3rem; // 48px // 
+//===RAYONS DE BORDURE===//
+$radius-sm: 0.5rem; // 8px
+$radius-md: 1rem; // 16px
+$radius-lg: 1.25rem;// 20px 
+$radius-xl: 1.5rem; // 24px 
+$radius-round: 50%; // Cercle parfait //
+//==== OMBRES====//
+$shadow-light: 0 2px 4px rgba(0, 0, 0, 0.1); 
+$shadow-medium: 0 4px 15px rgba(0, 0, 0, 0.15);
+$shadow-heavy: 0 8px 20px rgba(0, 0, 0, 0.25);
+//==== BREAKPOINTS RESPONSIVE ====//
+$breakpoint-tablet: 768px; 
+$breakpoint-desktop: 1024px;
+//=== TRANSITIONS ===//
+$transition-fast: 0.2s; 
+$transition-normal: 0.3s; 
+$transition-slow: 0.5s;

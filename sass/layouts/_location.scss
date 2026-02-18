@@ -1,0 +1,19 @@
+// location
+.location {
+    @include flex-center;
+    gap: $spacing-sm;
+    padding:$spacing-sm;
+    background-color:$color-grey-2;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+    &__icon{
+    color:$color-grey-3;
+    font-size: $font-size-base;
+    }
+    &__text{
+    color:$color-grey-3;
+    font-size: $font-size-base;
+    font-weight:$font-weight-medium;
+    }
+}

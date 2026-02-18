@@ -1,0 +1,34 @@
+// Loader
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  @include flex-center;
+  background-color: rgba($color-white, 0.9);
+  z-index: 9999;
+  animation: loader-disappear 2s ease-in-out forwards;
+ 
+  &__spinner {
+    width: 60px;
+    height: 60px;
+    border: 6px solid $color-grey-1;
+    border-top-color: $color-primary;
+    border-radius: $radius-round;
+    animation: spin 1s linear infinite;
+  }
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes loader-disappear {
+  0%, 80% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

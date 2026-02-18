@@ -1,0 +1,71 @@
+// FOOTER
+.footer {
+  padding: $spacing-lg;
+  background-color: $color-grey-3;
+  color: $color-white;
+    
+  
+  &__logo {
+    font-family: $font-logo;
+    font-size: $font-size-lg;
+    margin-bottom: $spacing-md;
+  }
+ 
+  &__list {
+    @include reset-list;
+  }
+ 
+  &__item {
+    margin-bottom: $spacing-xs;
+  }
+ 
+  &__link {
+    display: flex;
+    align-items: center;
+    font-size: $font-size-lg;
+    gap: $spacing-sm;
+    color: $color-white;
+    @include transition;
+   
+    &:hover {
+      color: $color-primary;
+    }
+  }
+ 
+  &__icon {
+    width: 20px;
+  }
+  // --- FOOTER DESKTOP ICI ---
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row-reverse; // Logo à droite
+    align-items: center;
+    padding: 30px 80px;
+    min-height: 150px;
+
+    &__logo {
+      font-size: $font-size-lg;
+      margin-bottom: 0; 
+      margin-left: 100px;
+      margin-right: 1%;
+    }
+    &__link { 
+      font-size: $font-size-lg;
+    }
+    &__list {
+      display: flex;
+      flex-direction: row; // Liens en ligne
+      gap: 30px;
+      margin-right: 30px;
+      margin-left: auto;
+    }
+    // sélecteur de précision
+    &__item {
+    margin-bottom: 0;
+    &:nth-child(1) {
+    margin-right: 40px; 
+   }
+  }
+  
+   }
+  }

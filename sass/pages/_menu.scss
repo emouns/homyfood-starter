@@ -1,0 +1,61 @@
+// menu principale
+.menu{
+    
+&__hero{
+    width:100%;
+    height:275px;
+    object-fit: cover;
+}
+
+&__content{
+    position: relative;
+    margin-top: -40px;
+    padding:$spacing-xl  $spacing-md;
+    background-color: $color-grey-1;
+    border-radius: $radius-xl $radius-xl 0 0;
+    @media (min-width: 768px) {
+      max-width: 1055px;   
+      margin-left: auto;   
+      margin-right: auto;  
+      padding: $spacing-xl 30px; 
+    }
+}
+
+&__header{
+    @include flex-between;
+    margin-bottom:$spacing-lg;
+}
+
+&__title{
+    font-family: $font-logo;
+    font-size:$font-size-xl;
+}
+&__button {
+    @include flex-center;
+    padding: 40px 0;
+    @media (min-width: $breakpoint-tablet) {
+      @include flex-center;      
+    } 
+  }
+} 
+.menu__section{
+    margin-bottom:$spacing-xxl;
+
+&__title{
+   font-size: $font-size-base;
+   font-weight:300;
+   text-transform: uppercase;
+   margin-bottom: $spacing-md;
+   padding-bottom: $spacing-xs;
+   border-bottom: 3px solid $color-tertiary;
+   width:40%; //  Soulignement court
+}
+
+&__list{
+    @include reset-list;
+    display: flex;
+    flex-direction:column;
+    gap:$spacing-md;
+}
+
+}

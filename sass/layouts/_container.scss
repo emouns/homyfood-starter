@@ -1,0 +1,22 @@
+// Conteneur central pour le contenu principal du site
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+ 
+  @include tablet {
+    padding: 0 $spacing-xl;
+  }
+}
+.section {
+  padding: $spacing-xl 0;
+ 
+  @include desktop {
+    
+    
+  }
+ 
+  &__title {
+    margin-bottom: $spacing-lg;
+  }
+} 
