@@ -22,8 +22,8 @@
        padding: $spacing-sm ($spacing-xs * 3); 
     font-size: $font-size-md;
     } 
-   @media (min-width: 768px) {
-            padding: $spacing-md ($spacing-sm * 2);
+   @media (min-width: 768px) {            
+           padding: $spacing-md ($spacing-sm * 2);
             font-size: $font-size-lg;
             
         }
