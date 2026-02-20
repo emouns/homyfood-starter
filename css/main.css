@@ -656,19 +656,19 @@ body {
   }
 }
 
-.menu__section {
+.menu-section {
   margin-bottom: 3rem;
 }
-.menu__section__title {
+.menu-section__title {
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 3px solid #99E2D0;
-  width: 40%;
+  width: 40px;
 }
-.menu__section__list {
+.menu-section__list {
   list-style: none;
   margin: 0;
   padding: 0;
