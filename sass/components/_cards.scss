@@ -37,6 +37,11 @@
     &__content{
         position: relative;
         padding:$spacing-md;
+
+        @media (min-width: $breakpoint-desktop) {  
+        padding-bottom: $spacing-lg;            
+    } 
+     
     }
 
     &__title{
