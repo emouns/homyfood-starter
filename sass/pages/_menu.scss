@@ -38,7 +38,7 @@
     } 
   }
 } 
-.menu__section{
+.menu-section{
     margin-bottom:$spacing-xxl;
 
 &__title{
@@ -48,7 +48,7 @@
    margin-bottom: $spacing-md;
    padding-bottom: $spacing-xs;
    border-bottom: 3px solid $color-tertiary;
-   width:40%; //  Soulignement court
+   width:40px; //  Soulignement court
 }
 
 &__list{
