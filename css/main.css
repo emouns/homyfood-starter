@@ -317,6 +317,11 @@ h3 {
   position: relative;
   padding: 1.5rem;
 }
+@media (min-width: 1024px) {
+  .restaurant-card__content {
+    padding-bottom: 2rem;
+  }
+}
 .restaurant-card__title {
   font-size: 1.125rem;
   font-weight: 700;
