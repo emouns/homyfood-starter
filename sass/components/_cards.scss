@@ -84,6 +84,9 @@
         .dish-card__check{
             transform:translateX(0);
         }
+        .dish-card__price{
+       margin-right: 80px;  // 
+        }
         .dish-card__check i{
           animation: rotate 0.5s ease-out;
         }
@@ -115,12 +118,22 @@
        display: flex;
        align-items: flex-end; 
        padding:$spacing-md;
+       padding-right:$spacing-md;
        font-size:$font-size-sm;
        font-weight:$font-weight-bold;
+       margin-left: auto;   
+       white-space: nowrap;
+       flex-shrink: 0;
+       transition:padding 0.3s ease;
+
     }
     &__check{
         @include flex-center;
-        width:6%;
+        position: absolute;
+        right:0;
+        top:0;
+        bottom:0;
+        width:60px;
         background-color:$color-tertiary;
         transform: translateX(60px);
         @include transition(transform);
