@@ -335,7 +335,13 @@ h3 {
   position: absolute;
   top: 50%;
   right: 1.5rem;
-  transform: translateY(-50%);
+  transform: translateY(-20%);
+}
+@media (min-width: 1024px) {
+  .restaurant-card__heart {
+    top: 50%;
+    transform: translateY(-20%);
+  }
 }
 
 .dish-card {
