@@ -1,0 +1,29 @@
+style: modification positionnement icone coeur card
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Sat Feb 21 00:21:26 2026 +0100
+#
+# interactive rebase in progress; onto d67ca9e
+# Last commands done (16 commands done):
+#    reword 058c94f # modif card restau- content desktop "ville"
+#    reword 43f5d78 # modif top heart card scss
+# Next commands to do (7 remaining commands):
+#    reword 368daa6 # modif html ajout et sup
+#    reword 0ebb7b8 # modif html oubli de synthaxe(-)
+# You are currently editing a commit while rebasing branch 'main' on 'd67ca9e'.
+#
+# Changes to be committed:
+#	modified:   css/main.css
+#	modified:   css/main.css.map
+#	modified:   sass/components/_cards.scss
+#
+# Untracked files:
+#	"chore\357\200\272 ajout du gitignoreore"
+#	"feat\357\200\272 installation use et modification boutons"
+#	"fix\357\200\272 correction syntaxe accolade button scss"
+#	"style\357\200\272 ajout soulignement menu en vert"
+#	"style\357\200\272 ajustement padding et margin cards mobile"
+#	"style\357\200\272 modification margin card"
+#

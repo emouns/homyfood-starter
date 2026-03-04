@@ -1,0 +1,49 @@
+feat: initialisation complete du projet Ohmyfood
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Wed Feb 18 21:51:17 2026 +0100
+#
+# interactive rebase in progress; onto d67ca9e
+# Last command done (1 command done):
+#    reword 308cc9d # Initial commit : 2nde version complète du projet Ohmyfood starter
+# Next commands to do (22 remaining commands):
+#    reword 1688041 # Ajout du .gitignore
+#    reword 0efc96c # install @use modif boutons pages
+# You are currently editing a commit while rebasing branch 'main' on 'd67ca9e'.
+#
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   Images et textes Ohmyfood/Oh my food - Textes.txt
+#	new file:   Images et textes Ohmyfood/images/logo/ohmyfood.png
+#	new file:   Images et textes Ohmyfood/images/logo/ohmyfood@2x.svg
+#	new file:   Images et textes Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg
+#	new file:   Images et textes Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg
+#	new file:   Images et textes Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg
+#	new file:   Images et textes Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg
+#	new file:   css/main.css
+#	new file:   css/main.css.map
+#	new file:   index.html
+#	new file:   restaurants/menu-a-la-francaise.html
+#	new file:   restaurants/menu-delice-des-sens.html
+#	new file:   "restaurants/menu-la-note-enchant\303\251.html"
+#	new file:   restaurants/menu-la-palette-du-gout.html
+#	new file:   sass/base/_reset.scss
+#	new file:   sass/base/_typography.scss
+#	new file:   sass/components/_buttons.scss
+#	new file:   sass/components/_cards.scss
+#	new file:   sass/components/_heart.scss
+#	new file:   sass/components/_loader.scss
+#	new file:   sass/layouts/_container.scss
+#	new file:   sass/layouts/_footer.scss
+#	new file:   sass/layouts/_header.scss
+#	new file:   sass/layouts/_location.scss
+#	new file:   sass/main.scss
+#	new file:   sass/pages/_home.scss
+#	new file:   sass/pages/_menu.scss
+#	new file:   sass/utils/_mixins.scss
+#	new file:   sass/utils/_variables.scss
+#

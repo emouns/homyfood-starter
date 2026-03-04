@@ -1,0 +1,28 @@
+style: ajustement marge des cards
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Thu Feb 19 15:38:10 2026 +0100
+#
+# interactive rebase in progress; onto d67ca9e
+# Last commands done (10 commands done):
+#    reword 5f55ede # accolade mal placé button.scss
+#    reword 3cf32e9 # annule modif
+# Next commands to do (13 remaining commands):
+#    reword 908ddf9 # souslignement menu  en vert
+#    reword b7db0f7 # nouvelle class modif selecteur deplacer le prix
+# You are currently editing a commit while rebasing branch 'main' on 'd67ca9e'.
+#
+# Changes to be committed:
+#	modified:   css/main.css
+#	modified:   css/main.css.map
+#	modified:   sass/components/_buttons.scss
+#
+# Untracked files:
+#	"chore\357\200\272 ajout du gitignoreore"
+#	"feat\357\200\272 installation use et modification boutons"
+#	"fix\357\200\272 correction syntaxe accolade button scss"
+#	"style\357\200\272 ajout soulignement menu en vert"
+#	"style\357\200\272 ajustement padding et margin cards mobile"
+#

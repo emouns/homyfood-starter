@@ -1,0 +1,22 @@
+chore: ajout du gitignore
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Wed Feb 18 22:32:33 2026 +0100
+#
+# interactive rebase in progress; onto d67ca9e
+# Last commands done (2 commands done):
+#    reword 308cc9d # Initial commit : 2nde version complète du projet Ohmyfood starter
+#    reword 1688041 # Ajout du .gitignore
+# Next commands to do (21 remaining commands):
+#    reword 0efc96c # install @use modif boutons pages
+#    reword 852012b # modif  card
+# You are currently editing a commit while rebasing branch 'main' on 'd67ca9e'.
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#
+# Untracked files:
+#	"chore\357\200\272 ajout du gitignoreore"
+#

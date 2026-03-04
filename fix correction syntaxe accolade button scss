@@ -1,0 +1,26 @@
+style: ajustement marges mobile et desktop
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Wed Feb 18 23:45:59 2026 +0100
+#
+# interactive rebase in progress; onto d67ca9e
+# Last commands done (6 commands done):
+#    reword 31e4a67 # modif main @import
+#    reword 8308fdc # modif  tailles cards mobile
+# Next commands to do (17 remaining commands):
+#    reword f85fde3 # modif taille    cards mobile padding et margin
+#    reword 081620d # ajust marge mobile & desktop
+# You are currently editing a commit while rebasing branch 'main' on 'd67ca9e'.
+#
+# Changes to be committed:
+#	modified:   css/main.css
+#	modified:   css/main.css.map
+#	modified:   sass/pages/_home.scss
+#
+# Untracked files:
+#	"chore\357\200\272 ajout du gitignoreore"
+#	"feat\357\200\272 installation use et modification boutons"
+#	"style\357\200\272 ajustement padding et margin cards mobile"
+#

@@ -1,0 +1,31 @@
+fix: suppression balises html en trop menu
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Sat Feb 21 00:45:44 2026 +0100
+#
+# interactive rebase in progress; onto d67ca9e
+# Last commands done (18 commands done):
+#    reword 368daa6 # modif html ajout et sup
+#    reword 0ebb7b8 # modif html oubli de synthaxe(-)
+# Next commands to do (5 remaining commands):
+#    reword 38736c6 # modif balises en trop html menu la note enchantée
+#    reword 6915b71 # html modif link footer
+# You are currently editing a commit while rebasing branch 'main' on 'd67ca9e'.
+#
+# Changes to be committed:
+#	modified:   restaurants/menu-a-la-francaise.html
+#	modified:   restaurants/menu-delice-des-sens.html
+#
+# Untracked files:
+#	"chore\357\200\272 ajout du gitignoreore"
+#	"feat\357\200\272 ajout et suppression elements html"
+#	"feat\357\200\272 installation use et modification boutons"
+#	"fix\357\200\272 correction syntaxe accolade button scss"
+#	"fix\357\200\272 suppression balises html en trop menu"
+#	"style\357\200\272 ajout soulignement menu en vert"
+#	"style\357\200\272 ajustement padding et margin cards mobile"
+#	"style\357\200\272 modification margin card"
+#

@@ -1,0 +1,27 @@
+revert: annulation derniere modification
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Wed Feb 18 23:48:29 2026 +0100
+#
+# interactive rebase in progress; onto d67ca9e
+# Last commands done (7 commands done):
+#    reword 8308fdc # modif  tailles cards mobile
+#    reword f85fde3 # modif taille    cards mobile padding et margin
+# Next commands to do (16 remaining commands):
+#    reword 081620d # ajust marge mobile & desktop
+#    reword 5f55ede # accolade mal placé button.scss
+# You are currently editing a commit while rebasing branch 'main' on 'd67ca9e'.
+#
+# Changes to be committed:
+#	modified:   css/main.css
+#	modified:   css/main.css.map
+#	modified:   sass/pages/_home.scss
+#
+# Untracked files:
+#	"chore\357\200\272 ajout du gitignoreore"
+#	"feat\357\200\272 installation use et modification boutons"
+#	"fix\357\200\272 correction syntaxe accolade button scss"
+#	"style\357\200\272 ajustement padding et margin cards mobile"
+#
