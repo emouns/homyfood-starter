@@ -1,21 +1,21 @@
 // ===Heart====
 .heart{
- position: relative;
- font-size: $font-size-lg; 
+ position: relative;     // conteneur reference  pour les position absolute
+ font-size: $font-size-lg;     // taille des icones
  cursor: pointer; 
  
  &__empty{
     color: $color-grey-4;
- @include transition(opacity);
+ @include transition(opacity);     // transition  douce et disparition
    }
 
 &__full{
-    position: absolute;
+    position: absolute;     // superposé coeur vide 
     top: 0;
     left: 0;
-    opacity: 0;
-    background:$gradient-primary;
-    -webkit-background-clip: text;   
+    opacity: 0;              // invisible par defaut
+    background:$gradient-primary;     // degradé rose-violet
+    -webkit-background-clip: text;      // application du gradient sur texte
     -webkit-text-fill-color: transparent;
     background-clip: text;
     @include transition(opacity);
@@ -26,14 +26,14 @@
     }
     .heart__full{
         opacity: 1; // coeur plein  //
-        animation: heart-fill  0.5s ease-in-out;
+        animation: heart-fill  0.5s ease-in-out;      // rebond
     }
 }
 
 }
 
 @keyframes heart-fill{
-    0% {transform: scale(0); }
-    50% {transform: scale(1.2); }
-    100% {transform: scale(1); }
+    0% {transform: scale(0); }       // commence a etre invisible
+    50% {transform: scale(1.2); }    // dépasse légerement
+    100% {transform: scale(1); }     // drevient a sa taille normal
 }

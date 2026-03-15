@@ -36,7 +36,7 @@
     width: 20px;
   }
   // --- FOOTER DESKTOP ICI ---
-  @media (min-width: 768px) {
+  @media (min-width: $breakpoint-tablet) {
     display: flex;
     flex-direction: row-reverse; // Logo à droite
     align-items: center;

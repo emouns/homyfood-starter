@@ -5,7 +5,7 @@
     border-radius:$radius-md;
     
     
-    width:90%;
+    width:100%;
     overflow: hidden;
     @include card-shadow;
     @include transition (transform);
@@ -74,7 +74,7 @@
     display:  flex;
     background-color:$color-white;
     border-radius: $radius-md;
-    overflow:hidden;
+    overflow:hidden;                 // cache le coche sui depasse a droite
     box-shadow:$shadow-light ;
     cursor:pointer;
     @include transition;
@@ -92,10 +92,10 @@
 
     &:hover{
         .dish-card__check{
-            transform:translateX(0);
+            transform:translateX(0);      // cachée adroite
         }
         .dish-card__price{
-       margin-right: 80px;  // 
+       margin-right: 80px;  // se décale pour laisser de la place
         }
         .dish-card__check i{
           animation: rotate 0.5s ease-out;
@@ -134,7 +134,7 @@
        margin-left: auto;   
        white-space: nowrap;
        flex-shrink: 0;
-       transition:padding 0.3s ease;
+       transition:padding 0.3s ease;        // glissement du prix
 
     }
     &__check{
@@ -145,8 +145,8 @@
         bottom:0;
         width:60px;
         background-color:$color-tertiary;
-        transform: translateX(60px);
-        @include transition(transform);
+        transform: translateX(60px);        // cachée a droite
+        @include transition(transform);     // animation d'entrée
 
     i {
        color:$color-white;

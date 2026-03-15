@@ -2,7 +2,7 @@
 // Bouton Principal
 
 .btn{
-    padding: $spacing-xl $spacing-lg;
+    padding: $spacing-sm $spacing-md;
     border:none;
     border-radius: 50px;
     box-shadow: 0 8px 20px rgba(147, 86, 220, 0.4); 
@@ -18,19 +18,21 @@
     &:hover{
         transform: scale(1.02);
         box-shadow:$shadow-heavy; 
-    }    
+    }
+    @media (min-width: 768px) {            
+           padding: $spacing-md ($spacing-sm * 2);
+            font-size: $font-size-lg;            
+        }
+
     &--large{
        padding: $spacing-sm ($spacing-xs * 3); 
     font-size: $font-size-md;
+    
     } 
-   @media (min-width: 768px) {            
-           padding: $spacing-md ($spacing-sm * 2);
-            font-size: $font-size-lg;
-            
-        }
+  
                              
  
- &--menu{
+    &--menu{
         padding: $spacing-sm ($spacing-xs * 3);
         font-size: $font-size-md;
         width: 100%;
