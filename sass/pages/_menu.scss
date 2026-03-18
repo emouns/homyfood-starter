@@ -23,7 +23,7 @@
 
 &__header{
     @include flex-between;
-    margin-bottom:$spacing-lg;
+    margin-bottom:$spacing-lg; // titre agauche coeur à droite 
 }
 
 &__title{
