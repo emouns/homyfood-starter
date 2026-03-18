@@ -392,13 +392,13 @@ h3 {
 .dish-card:nth-child(12) {
   animation-delay: 1.2s;
 }
-.dish-card:hover .dish-card__check {
+.dish-card:hover .dish-card__check, .dish-card:active .dish-card__check {
   transform: translateX(0);
 }
-.dish-card:hover .dish-card__price {
+.dish-card:hover .dish-card__price, .dish-card:active .dish-card__price {
   margin-right: 80px;
 }
-.dish-card:hover .dish-card__check i {
+.dish-card:hover .dish-card__check i, .dish-card:active .dish-card__check i {
   animation: rotate 0.5s ease-out;
 }
 .dish-card__content {
@@ -489,10 +489,10 @@ h3 {
   background-clip: text;
   transition: opacity 0.3s ease-in-out;
 }
-.heart:hover .heart__empty {
+.heart:hover .heart__empty, .heart:active .heart__empty {
   opacity: 0;
 }
-.heart:hover .heart__full {
+.heart:hover .heart__full, .heart:active .heart__full {
   opacity: 1;
   animation: heart-fill 0.5s ease-in-out;
 }
