@@ -20,7 +20,8 @@
     background-clip: text;
     @include transition(opacity);
 } 
-&:hover{
+&:hover,
+&:active{
     .heart__empty{
         opacity:0; // coeur vide  // 
     }

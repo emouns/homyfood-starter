@@ -90,7 +90,8 @@
         }    
     }
 
-    &:hover{
+    &:hover,
+    &:active {
         .dish-card__check{
             transform:translateX(0);      // cachée adroite
         }
